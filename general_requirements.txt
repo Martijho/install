@@ -1,0 +1,9 @@
+pip install matplotlib 
+pip install tqdm
+pip install pathlib
+pip install jupyterlab
+pip install keras
+pip install Pillow
+pip install scikit-learn 
+pip install pandas
+pip install opencv-python
