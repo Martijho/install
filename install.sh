@@ -10,11 +10,10 @@ sudo apt install -y ./google-chrome-stable_current_amd64.deb
 
 # FFMPEG
 sudo apt install -y ffmpeg
+
 # Pycharm
 sudo snap install pycharm-community --classic
 
-# Mailspring
-sudo snap install mailspring
 
 # VLC
 sudo snap install VLC
@@ -35,7 +34,7 @@ sudo apt update
 sudo apt install -y python3-opencv
 
 # Create anaconda environment with cuda for tensorflow-gpu and all necessary packages
-conda create --name ml tensorflow-gpu
+conda create --name ml tensorflow-gpu==1.14.0 cudatoolkit==10.0.130
 echo "Actiate conda environment and run\npip instal -r general_requirements.txt\n"
 
 
